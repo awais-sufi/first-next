@@ -21,6 +21,7 @@ const Title = () => {
           <img src="/Feature1.svg" alt="" height={250} width={250} />
         </div>
       </div>
+      
       <div className="grid md:grid-cols-2 gap-8 items-center mb-24">
         <div className="flex justify-center">
           <img src="/Feature2.svg" alt="" height={250} width={250} />
@@ -30,9 +31,9 @@ const Title = () => {
             Your title here
           </h3>
           <p className="text-[#718096] text-sm text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            bibendum, nunc non posuere consectetur, justo erat semper enim, non
-            hendrerit dui odio id enim.
+          Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit.
+            Suspendisse bibendum, nunc non posuere <br /> consectetur, justo
+            erat semper enim, non hendrerit <br /> dui odio id enim.
           </p>
         </div>
       </div>
