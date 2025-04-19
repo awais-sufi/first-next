@@ -12,9 +12,9 @@ const Title = () => {
         <div className="order-2 md:order-1 md:text-center">
           <p className="font-bold text-sm mb-4 text-center">Your title here</p>
           <p className="text-[#718096] text-sm text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit. Suspendisse
-            bibendum, nunc non posuere <br /> consectetur, justo erat semper enim, non
-            hendrerit <br /> dui odio id enim.
+            Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit.
+            Suspendisse bibendum, nunc non posuere <br /> consectetur, justo
+            erat semper enim, non hendrerit <br /> dui odio id enim.
           </p>
         </div>
         <div className="order-1 md:order-2 flex justify-center">
@@ -22,38 +22,28 @@ const Title = () => {
         </div>
       </div>
       <div className="grid md:grid-cols-2 gap-8 items-center mb-24">
-            <div className="flex justify-center">
-            <img src="/Feature2.svg" alt="" height={250} width={250} />
-
-            </div>
-            <div className="text-center md:text-left">
-              <h3 className="font-bold text-sm mb-4 text-center">Your title here</h3>
-              <p className="text-[#718096] text-sm text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere
-                consectetur, justo erat semper enim, non hendrerit dui odio id enim.
-              </p>
-            </div>
-          </div>
-      {/* <div className="grid md:grid-cols-2 gap-8 items-center mb-24">
-        <div className="order-2 md:order-1 flex justify-center">
+        <div className="flex justify-center">
           <img src="/Feature2.svg" alt="" height={250} width={250} />
         </div>
-        <div className="md:text-center">
-          <p className="font-bold text-sm mb-4 text-center">Your title here</p>
+        <div className="text-center md:text-left">
+          <h3 className="font-bold text-sm mb-4 text-center">
+            Your title here
+          </h3>
           <p className="text-[#718096] text-sm text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit. Suspendisse
-            bibendum, nunc non posuere <br /> consectetur, justo erat semper enim, non
-            hendrerit <br /> dui odio id enim.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            bibendum, nunc non posuere consectetur, justo erat semper enim, non
+            hendrerit dui odio id enim.
           </p>
         </div>
-      </div> */}
+      </div>
+
       <div className="grid md:grid-cols-2 gap-8 items-center mb-24">
         <div className="order-2 md:order-1 md:text-center">
           <p className="font-bold text-sm mb-4 text-center">Your title here</p>
           <p className="text-[#718096] text-sm text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit. Suspendisse
-            bibendum, nunc non posuere <br /> consectetur, justo erat semper enim, non
-            hendrerit <br /> dui odio id enim.
+            Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit.
+            Suspendisse bibendum, nunc non posuere <br /> consectetur, justo
+            erat semper enim, non hendrerit <br /> dui odio id enim.
           </p>
         </div>
         <div className="order-1 md:order-2 flex justify-center">
