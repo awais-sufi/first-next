@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React, { useState } from "react";
 
 const Navbar = () => {
@@ -10,7 +11,7 @@ const Navbar = () => {
           <div className="flex h-16 items-center justify-between">
             {/* Logo */}
             <div className="flex items-center space-x-1">
-              <img src="/main-logo.svg" alt="logo" width={30} height={30} />
+              <Image src="/main-logo.svg" alt="logo" width={30} height={30} />
               <h2 className="text-black font-semibold text-2xl">Starter</h2>
             </div>
 

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Title = () => {
@@ -18,13 +19,13 @@ const Title = () => {
           </p>
         </div>
         <div className="order-1 md:order-2 flex justify-center">
-          <img src="/Feature1.svg" alt="" height={250} width={250} />
+          <Image src="/Feature1.svg" alt="" height={250} width={250} />
         </div>
       </div>
       
       <div className="grid md:grid-cols-2 gap-8 items-center mb-24">
         <div className="flex justify-center">
-          <img src="/Feature2.svg" alt="" height={250} width={250} />
+          <Image src="/Feature2.svg" alt="" height={250} width={250} />
         </div>
         <div className="text-center md:text-left">
           <h3 className="font-bold text-sm mb-4 text-center">
@@ -48,7 +49,7 @@ const Title = () => {
           </p>
         </div>
         <div className="order-1 md:order-2 flex justify-center">
-          <img src="/Feature3.svg" alt="" height={250} width={250} />
+          <Image src="/Feature3.svg" alt="" height={250} width={250} />
         </div>
       </div>
     </>
